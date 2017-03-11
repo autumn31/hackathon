@@ -24,7 +24,7 @@
         "http://*/*",
         "https://*/*"
       ],
-      "js": ["myscript.js"]
+      "js": ["jquery.js","Chart.min.js","myscript.js"]
     }
   ]
 }
