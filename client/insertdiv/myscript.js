@@ -14,11 +14,13 @@
 	// jquery
 	var $el = $('.uf_addons_container').clone();
 	$('.guests').append($el);
-	$el.append("<canvas id=\"Chart\" width=\"400\" height=\"400\"></canvas>");
+	$el.append("<canvas id=\"Chart\" ></canvas>");
 })();
 
 //draw test
 (function(){ 
+	
+	var data = xx;
 	var ctx = $('#Chart');
 	var myChart = new Chart(ctx,{
 	    type: 'bar',
