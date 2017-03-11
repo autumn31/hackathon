@@ -19,11 +19,10 @@
 
 //draw test
 (function(){ 
-	
-	var data = xx;
+	// var data = xx;
 	var ctx = $('#Chart');
 	var myChart = new Chart(ctx,{
-	    type: 'bar',
+	    type: 'line',
 	    data: {
 	        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
 	        datasets: [{
